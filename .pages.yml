@@ -21,6 +21,46 @@ media:
     input: public/publications
     output: publications
 
+
+content:
+  - group: "About"
+    entries:
+      - file: "About"
+        path: PLACEHOLDER/about.yaml
+      - file: "Team"
+        path: PLACEHOLDER/team.yaml
+      - file: "Governance"
+        path: PLACEHOLDER/governance.yaml
+  - group: "What We Do"
+    entries:
+      - file: "What We Do"
+        path: PLACEHOLDER/what-we-do.yaml
+      - file: "Measurement"
+        path: PLACEHOLDER/measurement.yaml
+  - group: "Services"
+    entries:
+      - file: "Services"
+        path: PLACEHOLDER/services.yaml
+  - group: "Work With Us"
+    entries:
+      - file: "Work With Us"
+        path: PLACEHOLDER/work-with-us.yaml
+      - file: "Careers"
+        path: PLACEHOLDER/careers.yaml
+  - group: "Latest News"
+    entries:
+      - collection: "Blog"
+        path: PLACEHOLDER/blog
+  - group: "Projects"
+    entries:
+      - collection: "Projects"
+        path: PLACEHOLDER/projects
+  - group: "FAQs"
+    entries:
+      - file: "FAQs"
+        path: PLACEHOLDER/faqs.yaml
+
+
 # ============================================================================
 # REUSABLE COMPONENTS
 #
